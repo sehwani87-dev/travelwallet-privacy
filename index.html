@@ -78,7 +78,7 @@
       <header>
         <div class="brand">여행지갑</div>
         <h1>개인정보처리방침</h1>
-        <div class="date">시행일: 2026년 9월 11일</div>
+        <div class="date">시행일: 2026년 9월 12일</div>
         <p class="lead">
           여행지갑은 여행 중 지출을 기록하고 지도에서 확인할 수 있도록 돕는 iOS 앱입니다.
           이 방침은 앱에서 처리되는 정보와 이용자의 선택권을 설명합니다.
@@ -162,6 +162,14 @@
               <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple 개인정보처리방침</a>
             </li>
             <li>
+              <strong>Frankfurter 환율 API</strong>: 다른 통화로 입력한 지출을 여행 통화로 환산하고
+              환율 계산기를 제공하는 데 사용합니다. 요청에는 <strong>통화 코드 두 개와 기준 날짜만</strong>
+              전송되며, 지출 금액이나 여행·위치 정보는 전송하지 않습니다. 과거 지출은 그 지출 날짜의 환율을,
+              오늘 이후의 지출과 계산기는 최신 환율을 사용합니다. 받은 환율은 앱 메모리에 일시적으로
+              보관되며 기기의 영구 저장소에 따로 저장하지 않습니다.
+              <a href="https://frankfurter.dev" target="_blank" rel="noopener noreferrer">Frankfurter</a>
+            </li>
+            <li>
               <strong>Google Mobile Ads 및 Google User Messaging Platform</strong>: 광고 제공과 동의 관리에 사용합니다.
               Google의 정보 처리에 관한 자세한 내용은
               <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google 개인정보처리방침</a>과
@@ -186,8 +194,9 @@
         <section>
           <h2>5. 보관 및 삭제</h2>
           <p>
-            여행 및 지출 기록은 이용자가 앱에서 삭제하기 전까지 기기에 보관됩니다. 이용자는 앱에서 개별 지출 또는
-            여행 전체를 삭제할 수 있습니다. 앱을 삭제하면 일반적으로 기기에 저장된 앱 데이터도 삭제됩니다. 단,
+            여행 및 지출 기록은 이용자가 앱에서 삭제하기 전까지 기기에 보관됩니다. 이용자는 앱에서 개별 지출,
+            여행 전체, 또는 설정의 <strong>모든 여행 데이터 삭제</strong>로 기기에 저장된 기록 전부를 지울 수 있습니다.
+            앱을 삭제하면 일반적으로 기기에 저장된 앱 데이터도 삭제됩니다. 단,
             iOS 백업 또는 기기 설정에 따른 데이터 보관 여부는 Apple의 정책과 이용자의 기기 설정에 따라 달라질 수 있습니다.
           </p>
           <p>
@@ -202,6 +211,9 @@
             <li>iPhone 설정의 여행지갑 권한 화면에서 언제든 위치 권한을 변경할 수 있습니다.</li>
             <li>iPhone 설정의 개인정보 보호 및 보안 &gt; 추적에서 여행지갑의 ATT 추적 허용 여부를 변경할 수 있습니다.</li>
             <li>앱에서 여행과 지출 기록을 직접 수정하거나 삭제할 수 있습니다.</li>
+            <li>설정의 <strong>데이터 내보내기</strong>로 기기에 저장된 여행과 지출 기록을 CSV 파일로 내보낼 수 있습니다.
+              내보낸 파일은 이용자가 선택한 위치나 앱으로 전달되며, 개발자에게 전송되지 않습니다.</li>
+            <li>설정의 <strong>모든 여행 데이터 삭제</strong>로 기기에 저장된 기록을 한 번에 지울 수 있습니다.</li>
             <li>해당 지역에서 제공되는 경우 앱의 개인정보 선택 메뉴에서 광고 동의를 다시 확인하거나 변경할 수 있습니다.</li>
             <li>개발자가 통제하는 정보의 열람, 정정 또는 삭제와 개인정보 처리에 관한 문의는 아래 연락처로 보낼 수 있습니다.</li>
           </ul>
