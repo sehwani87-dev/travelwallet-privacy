@@ -75,7 +75,7 @@
       <header>
         <div class="brand">Travel Wallet</div>
         <h1>Privacy Policy</h1>
-        <p class="date">Effective date: September 11, 2026</p>
+        <p class="date">Effective date: September 12, 2026</p>
         <p class="lead">
           Travel Wallet is an iOS app that helps you record what you spend while traveling and
           review it on a map. This policy explains what information the app handles and the
@@ -177,6 +177,16 @@
               <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple Privacy Policy</a>
             </li>
             <li>
+              <strong>Frankfurter exchange rate API</strong>: used to convert expenses entered in
+              another currency into your trip currency, and to power the exchange calculator.
+              Each request sends <strong>only two currency codes and a reference date</strong>;
+              expense amounts, trip details, and location are never sent. Past expenses use the rate
+              for the date of the expense, while today's expenses and the calculator use the latest
+              rate. Retrieved rates are held temporarily in app memory and are not written to the
+              device's persistent storage.
+              <a href="https://frankfurter.dev" target="_blank" rel="noopener noreferrer">Frankfurter</a>
+            </li>
+            <li>
               <strong>Google Mobile Ads and Google User Messaging Platform</strong>: used to serve
               ads and manage consent. Details about Google's handling of information are available
               in the
@@ -205,7 +215,8 @@
           <h2>5. Retention and deletion</h2>
           <p>
             Trip and expense records are kept on your device until you delete them in the app. You
-            can delete an individual expense or an entire trip from within the app. Deleting the
+            can delete an individual expense, an entire trip, or every record stored on the device
+            at once using <strong>Delete All Trip Data</strong> in Settings. Deleting the
             app generally also deletes the app data stored on your device. Whether data is retained
             through an iOS backup or your device settings depends on Apple's policy and your device
             configuration.
@@ -223,6 +234,11 @@
             <li>You can change location permission at any time in the Travel Wallet permission screen in iPhone Settings.</li>
             <li>You can change whether Travel Wallet is allowed to track under Settings &gt; Privacy &amp; Security &gt; Tracking on your iPhone.</li>
             <li>You can edit or delete trips and expense records directly in the app.</li>
+            <li>You can export the trips and expenses stored on your device as a CSV file using
+              <strong>Export Data</strong> in Settings. The exported file goes to the location or app
+              you choose and is not sent to the developer.</li>
+            <li>You can erase everything stored on the device at once using <strong>Delete All Trip
+              Data</strong> in Settings.</li>
             <li>Where it is offered in your region, you can review or change your advertising consent from the privacy choices menu in the app.</li>
             <li>To access, correct, or delete information under the developer's control, or to ask about the handling of personal information, use the contact address below.</li>
           </ul>
